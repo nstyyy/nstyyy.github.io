@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Natanael Burgaud</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Mon Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#portfolio">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Natanael BURGAUD, 20 ans</h1>
+                <h2>Concepteur Développeur</h2>
+                <p>
+                    Étudiant alternant en 3ème année de Bachelor Développeur à l'école IPI à Blagnac, sur le campus Igensia (anciennement IGS).
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/nstyyy" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/natanael-burgaud" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:n.burgaud.pro@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Me contacter</a>
+                    
+                    <span class="btn btn-disabled" title="Le CV sera disponible prochainement">
+                        <i class="fas fa-lock"></i> Télécharger mon CV
+                    </span>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="assets/img/moi.jpg" alt="Natanael Burgaud">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Formation</h3>
+                    <p>Bachelor Développeur (Bac+3)</p>
+                    <p><strong>École IPI Blagnac (Campus Igensia)</strong></p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Expérience</h3>
+                    <p>Alternant Développeur Java</p>
+                    <p><strong>Entreprise OPEN (Labège)</strong></p>
+                </div>
+            </div>
+            <p class="about-text">
+                    Passionné par les nouvelles technologies, je suis constamment en quête d’apprendre et de maîtriser des outils et des langages innovants, que ce soit à l'école, ou de manière autodidacte.<br>
+                    J'ai toujours eu davantage de préférences pour m'occuper des parties back, plutôt que des parties front.<br><br>
+                    En Alternance chez <strong>OPEN</strong>, j'interviens sur un projet d'envergure pour un grand compte public, impliquant de la gestion de données complexes (MDM) avec <strong>Tibco EBX</strong> et du <strong>Java 17 avancé</strong>.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend & Langages</h3>
+                    <ul>
+                        <li>Java (Avancé)</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C# / C</li>
+                        <li>PHP</li>
+                        <li>Node.js / Express</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend Web</h3>
+                    <ul>
+                        <li>HTML5 / CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Angular</li>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Data & Outils</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>Tibco EBX (MDM)</li>
+                        <li>Git / Gestion de projet</li>
+                        <li>Méthodes Agiles</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-user-check"></i> Soft Skills</h3>
+                    <ul>
+                        <li>Rigueur & Professionnalisme</li>
+                        <li>Ponctualité</li>
+                        <li>Curiosité</li>
+                        <li>Esprit d'équipe</li>
+                        <li>Autonomie</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="https://france3-regions.franceinfo.fr/image/NMSXsQyOY8Ju2m8S8N-TmMQT1ds/1024x682/regions/2025/01/27/080-hl-aberlioz-2645452-6797a0a0e0e0b956304921.jpg" alt="CNRS App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Gestion de données (MDM)</h3>
+                        <p class="project-desc">Développement et maintenance d'une application du CNRS dans le cadre de mon alternance.</p>
+                        <p class="project-tags">Java 17 | TIBCO EBX | HTML | SQL</p>
+
+                        <div class="btn-container-disabled" title="Ce projet est soumis à une clause de confidentialité">
+                            <span class="btn btn-small btn-disabled"><i class="fas fa-lock"></i> Projet Privé</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/laboapp.jpg" alt="Laboratoire App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Laboratoire App</h3>
+                        <p class="project-desc">Site pour les étudiants permettants de voir le matériel de l'école, de l'emprunté, et laisser les administrateurs administrer.</p>
+                        <p class="project-tags">React.js | Express | Tailwind CSS | NodeJS</p>
+                        
+                        <div class="btn-container-disabled" title="Ce projet est soumis à une clause de confidentialité">
+                            <span class="btn btn-small btn-disabled"><i class="fas fa-lock"></i> Projet Privé</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0cslvqsOj72XENEec-9t1x2egLbZckOBj9Q&s" alt="FiveM Server">
+                    </div>
+                    <div class="project-info">
+                        <h3>Serveur GTA5 RP</h3>
+                        <p class="project-desc">Serveur de jeux GTA5 RP sur la plateforme FiveM. Le serveur tournait entre 150 et 200 joueurs constants.</p>
+                        <p class="project-tags">LUA | HTML | JavaScript | MySQL</p>
+
+                        <div class="btn-container-disabled" title="Ce projet est soumis à une clause de confidentialité">
+                            <span class="btn btn-small btn-disabled"><i class="fas fa-lock"></i> Projet Privé</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="https://jquery-plugins.net/image/plugin/discordjs-powerful-javascript-library-for-interacting-with-the-discord-api.png" alt="Discord JS Bot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Bot discord</h3>
+                        <p class="project-desc">Bot discord gérant un serveur complet, création de tickets avec logs, annonces automatiques, administration du serveur.</p>
+                        <p class="project-tags">JavaScript | DiscordJS | NodeJS | MongoDB</p>
+
+                        <div class="btn-container-disabled" title="Ce projet est soumis à une clause de confidentialité">
+                            <span class="btn btn-small btn-disabled"><i class="fas fa-lock"></i> Projet Privé</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="https://cdn.prod.website-files.com/654366841809b5be271c8358/659efd7c0732620f1ac6a1d6_why_flutter_is_the_future_of_app_development%20(1).webp" alt="Flutter App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Application Flutter</h3>
+                        <p class="project-desc">Application flutter permettant de générer des QR Code, voir le nombre d'utilisations, logs.</p>
+                        <p class="project-tags">Dart | Android</p>
+                        <a href="https://github.com/nstyyy/flutter-app" target="_blank" class="btn btn-small">Voir</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Family App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Site de vente de tableaux (en cours)</h3>
+                        <p class="project-desc">Site pour un membre de ma famille, permettant d'afficher ses oeuvres, avec le prix.</p>
+                        <p class="project-tags">HTML | CSS | Javascript</p>
+
+                        <div class="btn-container-disabled" title="Ce projet est soumis à une clause de confidentialité">
+                            <span class="btn btn-small btn-disabled"><i class="fas fa-lock"></i> Projet Privé</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>n.burgaud.pro@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>07 60 20 74 17</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Toulouse, France</span>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Natanael Burgaud. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
